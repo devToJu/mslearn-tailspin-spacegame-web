@@ -1,0 +1,8 @@
+1. Alle Projekte builden:
+    dotnet build --configuration Release
+
+2. Tests starten:
+    dotnet test --configuration Release --no-build
+
+   test mit logs (Output: ...Tests > TestResults):
+    dotnet test Tailspin.SpaceGame.Web.Tests --configuration Release --no-build --logger trx
